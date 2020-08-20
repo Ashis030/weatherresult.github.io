@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="stylet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-wrap">
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    </header>
+    <div id="clockContainer" >
+        <div><img src="c4.jpg" height="200" width="200"></div>
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    </div>
+    <main>
+      <section class="location">
+        <div class="city">New Delhi, IN</div>
+        <div class="date">Wednesday 19 August 2020</div>
+        <div id="demo"></div>
+        <div class="time">hour : minute : second</div>
+      </section>
+
+      
+
+
+      <div class="current">
+        <div class="temp">28<span>°c</span></div>
+        <div class="weather">Mist</div>
+        <div class="hi-low">26°c / 31°c</div>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
